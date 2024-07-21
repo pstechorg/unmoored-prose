@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://pstechorg.github.io/unmoored-prose/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Jul 2024 07:07:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pstechorg.github.io/unmoored-prose/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test Post</title>
-      <link>http://localhost:1313/posts/test-post/</link>
+      <link>https://pstechorg.github.io/unmoored-prose/posts/test-post/</link>
       <pubDate>Sat, 20 Jul 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/test-post/</guid>
+      <guid>https://pstechorg.github.io/unmoored-prose/posts/test-post/</guid>
       <description></description>
     </item>
   </channel>
