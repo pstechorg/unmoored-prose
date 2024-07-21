@@ -1,4 +1,4 @@
 baseURL = 'https://pstechorg.github.io/unmoored-prose/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Unmoored Prose'
 theme = 'ananke'
