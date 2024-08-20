@@ -31,8 +31,11 @@ export const objectpool = {
 }
 ```
 I created 3 global functions here to leverage.
+
 $setObjectPoolInstance - Inserts an instance object using a particular key.
+
 $getObjectPoolInstance - Retreive an object from the pool using the key.
+
 $inObjectPoolInstance - Do we already have an object with the key name in the pool?
 
 We're ready to use the plugin in our app. Just import the object into main.ts and use app.use to leverage it.
