@@ -4,7 +4,7 @@ date = 2024-08-19T07:07:07+01:00
 draft = false
 +++
 
-First things first, why would anyone want an object pool in Vue? I needed a pool to hang onto a wasm objects. By doing this, the wasm objects wouldn't need to recompile everytime they are leveraged. All I really needed was a reference to the objects that wouldn't disapear - this ensures that garbage collection doesn't clean up the compiled wasm files.
+First things first, why would anyone want an object pool in Vue? I needed a pool to hang onto a wasm objects. By doing this, the wasm objects wouldn't need to recompile when they are leveraged. All I really needed was a reference to the objects that wouldn't disappear - this ensures that garbage collection doesn't clean up the compiled wasm files.
 
 First, I needed to create a global pool in Vue. I leveraged a plugin because it fit nicely with some code already in place. It was straightforward enough - create an object with an install function.
 
@@ -60,5 +60,5 @@ async mounted() {
     }
   }
   ```
-That's it. Now, on initial load of the component you will see the wasm object download and compile. Everytime after that, it will just be ready to use!
+That's it. Now, on initial load of the component you will see the wasm object download and compile. Every time after that, it will just be ready to use!
 
